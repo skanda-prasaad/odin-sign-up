@@ -17,7 +17,7 @@ html, body {
 
 .left{
     height: 100%;
-    width: 55%;
+    width: 50%;
     /* background-color: pink; */
 }
 
@@ -144,4 +144,28 @@ input {
     text-align: center;
     font-size: small;
     margin-top: 1%;
+}
+.submit button:hover, .submit2 button:hover {
+    background-color: #2e2bff;
+    ;
+}
+
+.submit2 button:hover{
+    color: #ffffff;
+}
+
+.input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: start; /* Center the text horizontally */
+    font-size: 16px;
+}
+
+.left img {
+    width: 100%; /* Ensure the image fits its container */
+    height: 100%; /* Ensure the image covers the height */
+    /* object-fit: cover; Maintain aspect ratio and fill the container */
+    display: block; /* Remove unwanted spacing from inline elements */
 }
